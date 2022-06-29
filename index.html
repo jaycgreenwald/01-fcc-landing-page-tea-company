@@ -12,31 +12,35 @@
 </head>
 <body>
     <div class="site-wrap">
-        <header>
-            <img src="images/logoipsum-logo-5.svg" alt="">
-                <div class="nav-wrapper">
-                    <input type="checkbox" class="nav-toggle" name="" id="nav-toggle">
-                    <nav>
-                        <ul class="nav-links">
-                            <li><a href="#">Order</a></li>
-                            <li><a href="#">Menu</a></li>
-                            <li><a href="#">About</a></li>
-                        </ul>
-                    </nav>
-                    <label for="nav-toggle" class="nav-toggle-label"><span></span></label>
-                </div>
+        <header class="nav">
+            <div class="nav__wrapper">
+                <img src="images/logoipsum-logo-5.svg" alt="">
+                <input type="checkbox" class="nav__toggle" name="" id="nav-toggle">
+                <nav class="nav__menu">
+                    <ul class="nav__links">
+                        <li class="nav__line"><a class="nav__link" href="#">Order</a></li>
+                        <li class="nav__line"><a class="nav__link" href="#">Menu</a></li>
+                        <li class="nav__line"><a class="nav__link" href="#">About</a></li>
+                    </ul>
+                </nav>
+                <label for="nav-toggle" class="nav__toggle-label">
+                    <span class="nav__burger"></span>
+                </label>
+            </div>
         </header>
         
         <main>
-            <section class="cta">
-                <h1>Mrs. Pott's</h1>
-                <h2>Tea Emporium</h2>
-                <img src="images/Drinking tea-pana.svg" alt="">
+            <section class="hero">
+                <h1 class="hero__title">Mrs. Pott's</h1>
+                <h2 class="hero__subtitle">Tea Emporium</h2>
+                <img class="hero__image" src="images/Drinking tea-pana.svg" alt="">
                 <!-- <a href="https://storyset.com/people">People illustrations by Storyset</a> -->
-                <p class="offer">Sign up for our newsletter and receive a free box of macarons!</p>
-                <input type="email" name="" id="email-address" placeholder="Email Address">
-                <label for="email-address"></label>
-                <button class="btn-rounded">Submit</button>
+                <div class="cta">
+                    <p class="cta__offer">Sign up for our newsletter and receive a free box of macarons!</p>
+                    <input type="email" name="" id="email-address" placeholder="Email Address">
+                    <label for="email-address"></label>
+                    <button class="btn-rounded">Submit</button>
+                </div>
             </section>
             <div class="divider">
                 <img src="images/flower-divider.svg" alt="">
