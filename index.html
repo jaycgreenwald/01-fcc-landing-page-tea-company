@@ -14,7 +14,8 @@
     <div class="site-wrap">
         <header class="nav">
             <div class="nav__wrapper">
-                <img src="images/logoipsum-logo-5.svg" alt="">
+                <img class="logo" src="images/logoipsum-logo-5.svg" alt="">
+                
                 <input type="checkbox" class="nav__toggle" name="" id="nav-toggle">
                 <nav class="nav__menu">
                     <ul class="nav__links">
@@ -31,38 +32,44 @@
         
         <main>
             <section class="hero">
-                <h1 class="hero__title">Mrs. Pott's</h1>
-                <h2 class="hero__subtitle">Tea Emporium</h2>
-                <img class="hero__image" src="images/Drinking tea-pana.svg" alt="">
+                <div class="hero__text">
+                    <h1 class="hero__title">Mrs. Pott's</h1>
+                    <h2 class="hero__subtitle">Tea Emporium</h2>
+                </div>
+                    <img class="hero__image" src="images/Drinking tea-pana.svg" alt="">
                 <!-- <a href="https://storyset.com/people">People illustrations by Storyset</a> -->
                 <div class="cta">
                     <p class="cta__offer">Sign up for our newsletter and receive a free box of macarons!</p>
-                    <input type="email" name="" id="email-address" placeholder="Email Address">
+                    <input type="email" class="email-input" name="" id="email-address" placeholder="Email Address">
                     <label for="email-address"></label>
                     <button class="btn-rounded">Submit</button>
                 </div>
             </section>
-            <div class="divider">
-                <img src="images/flower-divider.svg" alt="">
-                <h3 class="transition-text">No ordinary bag of tea.</h3>
+            <div class="flex-hcenter">
+                <div class="divider flex-hcenter">
+                    <img src="images/flower-divider.svg" alt="">
+                    <h3 class="transition-text">No ordinary bag of tea.</h3>
+                </div>
             </div>
-            <section class="features">
-                <div class="card">
+            <section class="feature">
+                <div class="feature__card">
                     <img src="images/Delivery-pana.svg" alt="">
                     <p>Delivered to your doorstep.</p>
                 </div>
-                <div class="card">
+                <div class="feature__card">
                     <img src="images/Gardening-pana.svg" alt="">
                     <p>Locally sourced organic ingredients.</p>
                 </div>
-                <div class="card">
+                <div class="feature__card">
                     <img src="images/Employee-pana.svg" alt="">
                     <p>Livable wages for our staff.</p>
                 </div>
             </section>
-            <div class="divider">
-                <img src="images/flower-divider.svg" alt="">
-                <h3 class="transition-text">Don't just take our word for it.</h3>
+            <div class="flex-hcenter">
+                <div class="divider">
+                    <img src="images/flower-divider.svg" alt="">
+                    <h3 class="transition-text">Don't just take our word for it.</h3>
+                </div>
             </div>
             <section class="social-proof">
                 <div class="proof">
@@ -102,12 +109,10 @@
                     <p class="proof__review">"In a laoreet purus. Integer turpis quam, laoreet id orci nec, ultrices lacinia nunc. Aliquam erat volutpat. Curabitur fringilla in purus eget egestas. Etiam quis."</p>
                 </section>
             </div>
+            <p class="author">Created by @jaycgreenwald for FreeCodeCamp</p>
         </main>
-        
         <footer>
-
         </footer>
     </div> <!-- site-wrap div -->
-    
 </body>
 </html>
