@@ -11,7 +11,7 @@
     <title>Mrs. Pott's Tea</title>
 </head>
 <body>
-    <div class="site-wrap">
+    <!-- <div class="site-wrap"> -->
         <header class="nav">
             <div class="nav__wrapper">
                 <img class="logo" src="images/logoipsum-logo-5.svg" alt="">
@@ -30,13 +30,13 @@
             </div>
         </header>
         
-        <main>
+        <main class="content">
             <section class="hero">
                 <div class="hero__text">
-                    <h1 class="hero__title">Mrs. Pott's</h1>
-                    <h2 class="hero__subtitle">Tea Emporium</h2>
+                    <h1 class="hero__title" area-label="Mrs. Pott's Tea Emporium" role="heading">Mrs. Pott's</h1>
+                    <p class="hero__subtitle">Tea Emporium</p>
                 </div>
-                    <img class="hero__image" src="images/Drinking tea-pana.svg" alt="">
+                    <img class="hero__image" src="images/Drinking tea-pana.svg" alt="Woman enjoying tea.">
                 <!-- <a href="https://storyset.com/people">People illustrations by Storyset</a> -->
                 <div class="cta">
                     <p class="cta__offer">Sign up for our newsletter and receive a free box of macarons!</p>
@@ -45,35 +45,39 @@
                     <button class="btn-rounded">Submit</button>
                 </div>
             </section>
+
             <div class="flex-hcenter">
                 <div class="divider flex-hcenter">
                     <img src="images/flower-divider.svg" alt="">
                     <h3 class="transition-text">No ordinary bag of tea.</h3>
                 </div>
             </div>
+
             <section class="feature">
                 <div class="feature__card">
-                    <img src="images/Delivery-pana.svg" alt="">
-                    <p>Delivered to your doorstep.</p>
+                    <img class="feature__img" src="images/Delivery-pana.svg" alt="">
+                    <p class="feature__text">Delivered to your doorstep.</p>
                 </div>
                 <div class="feature__card">
-                    <img src="images/Gardening-pana.svg" alt="">
-                    <p>Locally sourced organic ingredients.</p>
+                    <img class="feature__img" src="images/Gardening-pana.svg" alt="">
+                    <p class="feature__text">Locally sourced organic ingredients.</p>
                 </div>
                 <div class="feature__card">
-                    <img src="images/Employee-pana.svg" alt="">
-                    <p>Livable wages for our staff.</p>
+                    <img class="feature__img" src="images/Employee-pana.svg" alt="">
+                    <p class="feature__text">Livable wages for our staff.</p>
                 </div>
             </section>
+
             <div class="flex-hcenter">
                 <div class="divider">
                     <img src="images/flower-divider.svg" alt="">
                     <h3 class="transition-text">Don't just take our word for it.</h3>
                 </div>
             </div>
+
             <section class="social-proof">
                 <div class="proof">
-                    <img class="proof__photo" src="images/kathryn-murphy.png" alt="">
+                    <img class="proof__photo" src="images/kathryn-murphy.png" alt="Kathryn Murphy">
                     <ul class="proof__rating">
                         <li><img src="images/star.svg" alt=""></li>
                         <li><img src="images/star.svg" alt=""></li>
@@ -85,7 +89,7 @@
                     <p class="proof__review">"In a laoreet purus. Integer turpis quam, laoreet id orci nec, ultrices lacinia nunc. Aliquam erat volutpat. Curabitur fringilla in purus eget egestas. Etiam quis."</p>
                 </div>
                 <div class="proof">
-                    <img class="proof__photo" src="images/guy-hawkins.png" alt="">
+                    <img class="proof__photo" src="images/guy-hawkins.png" alt="Guy Hawkins">
                     <ul class="proof__rating">
                         <li><img src="images/star.svg" alt=""></li>
                         <li><img src="images/star.svg" alt=""></li>
@@ -97,7 +101,7 @@
                     <p class="proof__review">“Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud.”</p>
                 </div>
                 <div class="proof">
-                    <img class="proof__photo" src="images/savannah nguyen.png" alt="">
+                    <img class="proof__photo" src="images/savannah nguyen.png" alt="Savannah Nguyen">
                     <ul class="proof__rating">
                         <li><img src="images/star.svg" alt=""></li>
                         <li><img src="images/star.svg" alt=""></li>
@@ -109,10 +113,11 @@
                     <p class="proof__review">"In a laoreet purus. Integer turpis quam, laoreet id orci nec, ultrices lacinia nunc. Aliquam erat volutpat. Curabitur fringilla in purus eget egestas. Etiam quis."</p>
                 </section>
             </div>
-            <p class="author">Created by @jaycgreenwald for FreeCodeCamp</p>
         </main>
-        <footer>
+
+        <footer class="attribution">
+            <p class="attribution__text">Created by <a class="attribution__link" href="https://www.github.com/jaycgreenwald">Jason Greenwald</a> for FreeCodeCamp Responsive Web Design</p>
         </footer>
-    </div> <!-- site-wrap div -->
+    <!-- </div> site-wrap div -->
 </body>
 </html>
